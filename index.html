@@ -23,6 +23,7 @@
     <div class="flexCalc">
         <p id="asking">How many characters should your password have?</p>
         <p id="notiz">There must be a minimum of 6 and a maximum of 21 characters.</p>
+        <div class="checkbox">
         <label>
             <input id="pwLenght" class="inPut" required value="6"/>
             <button class="btnGen" onclick="generatePassword()">GENERATE</button>
@@ -44,7 +45,10 @@
             <input id="cbSpecialChars" type="checkbox" checked>
             special Chars
         </label>
-        <p id="output" class="outPut"></p>
+        </div>
+        <div class="flexOutput">
+            <p id="output" class="outPut"></p>
+        </div>
     </div>
     <div class="flexDate">
         <div class="dateBackground">
