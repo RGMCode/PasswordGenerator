@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+*********     code from MRGCode       *********
+*********   on September 12 2021      *********
+********* https://github.com//MRGCode *********
+-->
+<html lang="en">
+<link rel="stylesheet" href="CSS/passwordGenerator.css">
+<script src="JavaScript/passwordGenerator.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password-Generator</title>
+</head>
+
+<body>
+<div class="felxContainer">
+    <div class="flexTime">
+        <div class="timeBackground">
+            <p id="time" class="Time"></p>
+        </div>
+    </div>
+    <div class="flexCalc">
+        <p id="asking">How many characters should your password have?</p>
+        <p id="notiz">There must be a minimum of 6 and a maximum of 21 characters.</p>
+        <label>
+            <input id="pwLenght" class="inPut" required value="6"/>
+            <button class="btnGen" onclick="generatePassword()">GENERATE</button>
+        </label>
+        <br/>
+        <label>
+            <input id="cbUpperABC" type="checkbox" checked>
+            upper Chars
+        </label>
+        <label>
+            <input id="cbLowerAbc" type="checkbox" checked>
+            lower Chars
+        </label>
+        <label>
+            <input id="cbNumber" type="checkbox" checked>
+            Numbers
+        </label>
+        <label>
+            <input id="cbSpecialChars" type="checkbox" checked>
+            special Chars
+        </label>
+        <p id="output" class="outPut"></p>
+    </div>
+    <div class="flexDate">
+        <div class="dateBackground">
+            <p id="date" class="Date"></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
