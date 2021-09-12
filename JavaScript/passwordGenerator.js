@@ -37,7 +37,6 @@ function generatePassword() {
     }
 }
 
-
 window.onload = function (e) {  //onload time and date output
     time();
     date();
